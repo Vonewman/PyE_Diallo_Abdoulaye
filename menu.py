@@ -15,7 +15,7 @@ from moyenne import calcul_moyenne
 
 print("#############################################################################")
 print("#############################################################################")
-print("                           PROJET PYTHON                                     ")
+print("               BIENVENU AU MENU PROJET PYTHON                                ")
 print("#############################################################################")
 print("#############################################################################")
 
@@ -106,7 +106,7 @@ del data_valide[14]
 del data_valide[2]
 data_valide_sorted = [] 
 for row in data_valide:
-   notes_tuples = row[6], calcul_moyenne(row[6])
+   notes_tuples = row, calcul_moyenne(row[6])
    data_valide_sorted.append(notes_tuples)
 
 print("\n")   
