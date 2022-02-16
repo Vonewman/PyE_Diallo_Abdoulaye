@@ -118,10 +118,14 @@ while True:
     else:
         print("Tapez une lettre valide")
 
+print("\n")
+
 if fpre == "O" or fpre == "o":
     print("Les 5 premiers sont rangés comme suit: ")
+    print("\n")
     data_valide_sorted.sort(key=lambda moyenne:moyenne[:][1], reverse=True)
     for x in data_valide_sorted[:5]:
         print("L'élève: ", x[0], " a pour moyenne ", x[1])
+        print("\n")
 elif fpre == "N" or fpre == "n":
     print("Merci!")
