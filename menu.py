@@ -64,7 +64,8 @@ print("\n")
 
 while True:
     fhand = input("Tapez 'V' pour les donnes valides et 'I' pour les donnees invalides: ")
-    if fhand == "V" or fhand == "I" or fhand == "v" or fhand == "i":
+    fhand = fhand.lower()
+    if fhand == "V" or fhand == "I":
         break
     else:
         print("Tapez une lettre valide")
@@ -113,7 +114,8 @@ print("\n")
 
 while True:
     fpre = input("Tapez 'O' pour voir les 5 premiers ou 'N' pour sortir du programme: ")
-    if fpre == "O" or fpre == "N" or fpre == "o" or fpre == "n":
+    fpre = fpre.lower()
+    if fpre == "O" or fpre == "N":
         break
     else:
         print("Tapez une lettre valide")

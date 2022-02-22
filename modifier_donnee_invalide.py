@@ -43,7 +43,7 @@ def format_data(chaine):
     if liste_chaine[1] in "Novembre" or liste_chaine[1] in "novembre":
         liste_chaine[1] = "11"
     if liste_chaine[1] in "Decembre" or liste_chaine[1] in "decembre":
-        liste_chaine[2] = "12"
+        liste_chaine[1] = "12"
     
     if liste_chaine[2] == "99":
         liste_chaine[2] = "1999"
